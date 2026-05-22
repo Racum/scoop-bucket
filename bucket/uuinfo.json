@@ -6,19 +6,23 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/racum/uuinfo/releases/download/v0.7.4/uuinfo-windows-x86_64.zip",
-      "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+      "hash": "629ceb9de78a05cd4a0b4bf7a6f031d57e80fd8d583c033791216e9e5d7ca3c0"
     },
     "arm64": {
       "url": "https://github.com/racum/uuinfo/releases/download/v0.7.4/uuinfo-windows-aarch64.zip",
-      "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+      "hash": "c55d0370daa61480c08221fdf018f0b98ef29fe42ac53a37d52ed32451b95da0"
     }
   },
   "bin": "uuinfo.exe",
   "checkver": "github",
   "autoupdate": {
     "architecture": {
-      "64bit": { "url": "https://github.com/racum/uuinfo/releases/download/v$version/uuinfo-windows-x86_64.zip" },
-      "arm64": { "url": "https://github.com/racum/uuinfo/releases/download/v$version/uuinfo-windows-aarch64.zip" }
+      "64bit": {
+        "url": "https://github.com/racum/uuinfo/releases/download/v$version/uuinfo-windows-x86_64.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/racum/uuinfo/releases/download/v$version/uuinfo-windows-aarch64.zip"
+      }
     }
   }
 }
