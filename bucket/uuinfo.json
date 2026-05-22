@@ -1,0 +1,24 @@
+{
+  "version": "0.7.4",
+  "description": "Tool to debug unique identifiers (UUID, ULID, Snowflake, etc)",
+  "homepage": "https://github.com/racum/uuinfo",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/racum/uuinfo/releases/download/v0.7.4/uuinfo-windows-x86_64.zip",
+      "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "arm64": {
+      "url": "https://github.com/racum/uuinfo/releases/download/v0.7.4/uuinfo-windows-aarch64.zip",
+      "hash": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "bin": "uuinfo.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": { "url": "https://github.com/racum/uuinfo/releases/download/v$version/uuinfo-windows-x86_64.zip" },
+      "arm64": { "url": "https://github.com/racum/uuinfo/releases/download/v$version/uuinfo-windows-aarch64.zip" }
+    }
+  }
+}
