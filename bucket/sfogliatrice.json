@@ -6,19 +6,23 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/racum/sfogliatrice/releases/download/v0.6.1/sfogliatrice-windows-x86_64.zip",
-      "hash": "PLACEHOLDER_UPDATED_BY_CI"
+      "hash": "2e33fbcad9b42b77ae1ea1128943580cd5bfcc1358fd4cac2e3d5743c66c445e"
     },
     "arm64": {
       "url": "https://github.com/racum/sfogliatrice/releases/download/v0.6.1/sfogliatrice-windows-aarch64.zip",
-      "hash": "PLACEHOLDER_UPDATED_BY_CI"
+      "hash": "6db0d486c86e3c597f84ca08364d2d3a5105369ef1e26b5247685423da64bb5c"
     }
   },
   "bin": "sfogliatrice.exe",
   "checkver": "github",
   "autoupdate": {
     "architecture": {
-      "64bit": { "url": "https://github.com/racum/sfogliatrice/releases/download/v$version/sfogliatrice-windows-x86_64.zip" },
-      "arm64": { "url": "https://github.com/racum/sfogliatrice/releases/download/v$version/sfogliatrice-windows-aarch64.zip" }
+      "64bit": {
+        "url": "https://github.com/racum/sfogliatrice/releases/download/v$version/sfogliatrice-windows-x86_64.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/racum/sfogliatrice/releases/download/v$version/sfogliatrice-windows-aarch64.zip"
+      }
     }
   }
 }
