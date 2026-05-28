@@ -1,0 +1,24 @@
+{
+  "version": "0.6.1",
+  "description": "CLI tool to tessellate GeoJSON geometries into satellite survey targets and coverages",
+  "homepage": "https://github.com/racum/sfogliatrice",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/racum/sfogliatrice/releases/download/v0.6.1/sfogliatrice-windows-x86_64.zip",
+      "hash": "PLACEHOLDER_UPDATED_BY_CI"
+    },
+    "arm64": {
+      "url": "https://github.com/racum/sfogliatrice/releases/download/v0.6.1/sfogliatrice-windows-aarch64.zip",
+      "hash": "PLACEHOLDER_UPDATED_BY_CI"
+    }
+  },
+  "bin": "sfogliatrice.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": { "url": "https://github.com/racum/sfogliatrice/releases/download/v$version/sfogliatrice-windows-x86_64.zip" },
+      "arm64": { "url": "https://github.com/racum/sfogliatrice/releases/download/v$version/sfogliatrice-windows-aarch64.zip" }
+    }
+  }
+}
