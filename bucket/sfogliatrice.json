@@ -6,11 +6,11 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/racum/sfogliatrice/releases/download/v0.6.2/sfogliatrice-windows-x86_64.zip",
-      "hash": "45a0ab0b0ab2a7e4c050c270e14246e6ba4b5f0df77e79b3b2c004dad4f16644"
+      "hash": "0161d45c348930a0ecf45d0c04ba4f3e47c789eabf151f72bbec82f131bd1428"
     },
     "arm64": {
       "url": "https://github.com/racum/sfogliatrice/releases/download/v0.6.2/sfogliatrice-windows-aarch64.zip",
-      "hash": "7b4194447f485e2e80a65f4db8671d9a105b1d3eb9a34a0faf1637c97e9e2a46"
+      "hash": "af4a61afccd6b2685280df6a05a8d422ee274813332959e8617a31c1bd9bab7d"
     }
   },
   "bin": "sfogliatrice.exe",
